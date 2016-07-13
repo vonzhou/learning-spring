@@ -19,6 +19,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!--使用Apache Tiles模板渲染引擎-->
     <bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/>
     <bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <property name="definitions">
