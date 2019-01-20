@@ -1,7 +1,7 @@
-package com.vonzhou.spitter.service;
+package com.vonzhou.learningspring.service;
 
-import com.vonzhou.spitter.domain.Spitter;
-import com.vonzhou.spitter.mappers.SpitterMapper;
+import com.vonzhou.learningspring.domain.Spitter;
+import com.vonzhou.learningspring.mappers.SpitterMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

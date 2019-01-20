@@ -1,4 +1,4 @@
-package com.vonzhou.spitter.common;
+package com.vonzhou.learningspring.common;
 
 /**
  * Created by vonzhou on 16/4/20.

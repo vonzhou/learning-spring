@@ -1,6 +1,6 @@
-package com.vonzhou.spitter.mappers;
+package com.vonzhou.learningspring.mappers;
 
-import com.vonzhou.spitter.domain.Spitter;
+import com.vonzhou.learningspring.domain.Spitter;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.vonzhou.spitter.controller;
+package com.vonzhou.learningspring.controller;
 
-import com.vonzhou.spitter.domain.Spitter;
+import com.vonzhou.learningspring.domain.Spitter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

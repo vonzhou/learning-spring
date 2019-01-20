@@ -1,4 +1,4 @@
-package com.vonzhou.spitter.common;
+package com.vonzhou.learningspring.common;
 
 import java.io.File;
 import java.io.FileOutputStream;

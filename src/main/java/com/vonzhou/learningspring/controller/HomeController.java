@@ -1,10 +1,9 @@
-package com.vonzhou.spitter.controller;
+package com.vonzhou.learningspring.controller;
 
-import com.vonzhou.spitter.service.SpitterService;
+import com.vonzhou.learningspring.service.SpitterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import sun.security.provider.ConfigFile;
 
 import java.util.Map;
 

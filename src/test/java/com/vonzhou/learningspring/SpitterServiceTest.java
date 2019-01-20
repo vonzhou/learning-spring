@@ -1,7 +1,7 @@
-package com.vonzhou.spitter;
+package com.vonzhou.learningspring;
 
-import com.vonzhou.spitter.domain.Spitter;
-import com.vonzhou.spitter.service.SpitterService;
+import com.vonzhou.learningspring.domain.Spitter;
+import com.vonzhou.learningspring.service.SpitterService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

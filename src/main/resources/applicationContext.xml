@@ -18,7 +18,7 @@
 
     <context:annotation-config/>
 
-    <context:component-scan base-package="com.vonzhou.spitter"/>
+    <context:component-scan base-package="com.vonzhou.learningspring"/>
 
     <context:property-placeholder location="classpath:db.properties"/>
 
@@ -36,7 +36,7 @@
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="typeAliasesPackage" value="com.vonzhou.spitter.domain"/>
+        <property name="typeAliasesPackage" value="com.vonzhou.learningspring.domain"/>
         <property name="mapperLocations" value="classpath*:com/vonzhou/**/.xml"/>
     </bean>
 
