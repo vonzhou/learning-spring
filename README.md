@@ -1,6 +1,9 @@
 # 一个简单的web demo
 
 
+TODO  使用mysql自带的数据集
+
+
 ## Goal
 
 通过一个简单的项目，把Spring, Spring MVC, MyBatis, MySQL,restful使用起来，现在的应用通常都是移动端发出http请求，服务端返回json格式的数据。

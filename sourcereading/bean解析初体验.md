@@ -1,4 +1,6 @@
-# Spring bean解析过程分析
+[主页](http://vonzhou.com)  | [读书](https://github.com/vonzhou/readings)  | [知乎](https://www.zhihu.com/people/vonzhou) | [GitHub](https://github.com/vonzhou)
+---
+# Spring源码阅读 - bean解析初体验
 
 ## 从一个简单例子开始
 
@@ -38,6 +40,7 @@ public class TestFoo {
 
 那么就开始吧！先看看XmlBeanFactory所处的地位。
 
+![](DefaultListableBeanFactory.jpg)
 
 XmlBeanFactory扩展了DefaultListableBeanFactory，使用XmlBeanDefinitionReader从XML配置文件中读取bean的定义。忽略其他的细节，我们先来看看这个配置文件（是一种Resource）是如何被加载的。跟踪进去，进入XmlBeanDefinitionReader#loadBeanDefinitions方法，然后扑面而来的是下面这个重要的方法。
 
@@ -287,6 +290,8 @@ public BeanDefinitionHolder parseBeanDefinitionElement(Element ele, BeanDefiniti
 ```
 
 我们来看看BeanDefinitionHolder的结构，其中包含BeanDefinition,bean name 以及bean的别名，可以通过debug，加深理解。
+
+![](BeanDefinitionHolder.jpg)
 
 
 ## 注册bean definition
