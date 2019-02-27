@@ -204,7 +204,7 @@ private CachedIntrospectionResults(Class<?> beanClass) throws BeansException {
 ```
 
 
-## 判断是否可复制
+## 判断是否可赋值（Assignable）
 
 
 看工具类`ClassUtils`。
